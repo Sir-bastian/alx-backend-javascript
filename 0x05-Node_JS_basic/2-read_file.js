@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 /**
  *Function named countStudents that accepts a path in argument
  *
@@ -5,7 +7,7 @@
  *
  * If database available, it should log message to the console
  * It should log number of students in each field and the list
- * 
+ *
  */
 
 const countStudents = (dataPath) => {
